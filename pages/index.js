@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-//pliki
 import App from "./components/App";
-import "./styling/index.css";
 
-ReactDOM.render(
-  <div>
-    <App />
-  </div>,
-  document.getElementById("root")
-);
+export default function Home() {
+  return (
+    <div>
+      <h1>XD</h1>
+      <div>lel</div>
+    </div>
+  );
+}
