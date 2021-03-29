@@ -1,14 +1,20 @@
 import React, { useState } from "react";
+import Collapsible from "react-collapsible";
 
-const rozwin = () => {};
 function Pytanie(props) {
   return (
     <div className="pytanie">
-      <a href="#" onClick={rozwin}>
-        <p>
-          {props.id}. {props.tekst}
+      <Collapsible
+        trigger={
+          <p className="tytul">
+            {props.id}. {props.tekst}
+          </p>
+        }
+      >
+        <p className="content">
+          <div id="odpowiedz">{props.odpowiedz}</div>
         </p>
-      </a>
+      </Collapsible>
     </div>
   );
 }

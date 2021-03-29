@@ -4,7 +4,7 @@ function App() {
       <div className="navbar">
         <ul>
           <li>
-            <a href="index.html">Main page</a>
+            <a href="index.html">Strona główna</a>
           </li>
           <li>
             <a href="dsc">Discord</a>
