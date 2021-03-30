@@ -3,17 +3,17 @@ function App() {
     <div className="App">
       <div className="navbar">
         <ul>
-          <li>
+          <li id="page">
             <a href="index.html">Strona główna</a>
           </li>
-          <li>
-            <a href="dsc">Discord</a>
+          <li id="discord">
+            <a href="https://discord.gg/6uddsDd">Discord</a>
           </li>
-          <li>
-            <a href="fb">Facebook</a>
+          <li id="facebook">
+            <a href="https://www.facebook.com/tolkien.world">Facebook</a>
           </li>
-          <li>
-            <a href="ig">Instagram</a>
+          <li id="instagram">
+            <a href="https://www.instagram.com/tolkien_world.pl/">Instagram</a>
           </li>
         </ul>
         <div className="main"></div>

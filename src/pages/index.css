@@ -6,3 +6,9 @@ body {
   background-image: url("https://wallpaperaccess.com/full/838293.jpg");
   background-size: 100vw;
 }
+
+#dsc {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
