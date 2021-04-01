@@ -3,7 +3,7 @@ body {
   --back: green;
   overflow: hidden;
   font-family: Roboto;
-  background-image: url("https://wallpaperaccess.com/full/838293.jpg");
+  background-image: url("https://wallpaperaccess.com/full/813435.jpg");
   background-size: 100vw;
 }
 
@@ -11,4 +11,6 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
+  height: 50vh;
+  width: 18vw;
 }
