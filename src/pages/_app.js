@@ -1,4 +1,5 @@
-import React, { Children, useState } from "react";
+import React from "react";
+
 // komponenty React
 import Obramowka from "./components/Obramowka";
 import App from "./components/App";
@@ -8,18 +9,11 @@ import "./styles/Pytanie.css";
 import "./styles/Appc.css";
 import "./index.css";
 
-const myFunction = () => {
-  // Declare variables
-  var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
-  li = ul.getElementsByTagName("li");
-};
 const Strona = () => {
   return (
     <div>
       <iframe
+        media="screen and (max-device-width: 799px)"
         id="dsc"
         src="https://discord.com/widget?id=484645229371064332&theme=dark"
         allowtransparency="true"
