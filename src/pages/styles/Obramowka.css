@@ -11,3 +11,10 @@
 
   padding: 15px;
 }
+
+@media screen and (max-device-width: 400px) {
+  .obramowka {
+    width: 85vw;
+    left: 4vw;
+  }
+}
